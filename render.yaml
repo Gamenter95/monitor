@@ -13,7 +13,6 @@ services:
         sync: false
       - key: SOLSCAN_API_KEY
         sync: false
-```
 
 ### **4. `runtime.txt`** (Specify Python version)
 ```
@@ -41,18 +40,3 @@ wallets.db
 # OS
 .DS_Store
 Thumbs.db
-```
-
----
-
-## 📂 **Your Project Structure Should Look Like:**
-```
-crypto-wallet-monitor/
-├── bot.py                  # Your main bot code
-├── wallet_groups.py        # Wallet grouping feature
-├── requirements.txt        # Python dependencies
-├── Procfile               # Tells Render how to run your bot
-├── render.yaml            # Render configuration (optional)
-├── runtime.txt            # Python version
-├── .gitignore            # Git ignore file
-└── README.md             # Documentation (optional)
